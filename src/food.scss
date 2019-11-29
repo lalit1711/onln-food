@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Muli|Ubuntu&display=swap");
+// Set your brand colors
+$dblue: #153d77;
+$sblue: #40c3f7;
+$cgrey: #1f2933;
+$lgrey: #e4e7eb;
+$pink: #e8368f;
+$red: #ef4e4e;
+$yellow: #f7c948;
+$green: #3ebd93;
+
+// Update Bulma's global variables
+$family-sans-serif: "Ubuntu", "sans-serif";
+$family-monospace: "Muli", "monospace";
+$primary: $dblue;
+$info: $pink;
+$light: #ffffff;
+$normal: #ffffff;
+$link: $sblue;
+$success: $green;
+$warning: $lgrey;
+$danger: $red;
+$text: $cgrey;
+$dark: $cgrey;
+
+// Update some of Bulma's component variables
+$footer-background-color: $dark;
+$body-background-color: rgb(244, 247, 252);
+$control-border-width: 0.5px;
+$input-border-color: $lgrey;
+$input-font-size: 15px;
+$input-radius: 4px;
+$button-font-weight: 600;
+$input-shadow: none;
+$divider-thickness: 0.05rem;
+$size-6: 0.85rem;
+//control style
+$control-radius: 4px;
+$pageloader-opacity: 1;
+$control-font-size: 15px;
+$footer-padding: 2rem 0.5rem 2rem;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
